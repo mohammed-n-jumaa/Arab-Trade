@@ -1,0 +1,50 @@
+.newsDiv {
+  height: auto;
+  border: solid 1px black;
+  margin-top: 3px;
+  margin-bottom: 13px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: monospace;
+  padding: 10px;
+}
+
+.titlediv {
+  text-align: center;
+  color: rgb(5, 5, 5);
+}
+
+div form p label {
+  font-size: 20px;
+  font-family: monospace;
+  margin-left: 15px;
+  margin: 30px;
+}
+
+div form p textarea {
+
+  margin-top: 15px;
+  border: solid 0.5px rgba(149, 165, 166, 1.0);
+
+}
+
+div form p button {
+  float: right;
+  margiN: 50px;
+  height: 40px;
+  width: 90px;
+  background: #0f0e0e;
+  color: #c7c0c0;
+  font-size: 18px;
+  border-radius: 8px;
+  border-color: (149, 165, 166, 1.0)
+}
+
+button:hover {
+  background: #dfe6e9;
+  color: #0f0e0e;
+}
+
+div form p input {
+  padding: 5px;
+}

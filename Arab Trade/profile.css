@@ -1,0 +1,141 @@
+.card {
+	box-shadow: 0 4px 8px 1px rgba(105, 105, 105);
+	max-width: 700px;
+	margin-top: 25px;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 30px;
+
+  }
+  .main_menu_area{overflow:visible; background:#0D0E0F; min-height:50px}
+  .main_menu_area ul{margin:0; padding:0; list-style:none}
+  .main_menu_area ul li{float:left; position:relative}
+  .main_menu_area ul li a{color:#FFF; display:block; font-family:'bebasregular'; font-size:15px; padding:18px 18.7px}
+  .main_menu_area ul li a:hover{background:#CF0000}
+
+  .card img {
+	width: 80%;
+	border-radius: 20%;
+	margin-bottom: 20px;
+  }
+
+  .card h1 {
+	font-size: 28px;
+	margin-bottom: 10px;
+  }
+
+  .card p {
+	font-size: 18px;
+	color: #555;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 25px;
+  }
+  .card p:hover {
+   color:red
+  }
+
+  .card .title {
+	color: #00BFFF;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+  }
+
+  .card a {
+	text-decoration: none;
+	color: #333;
+	font-size: 24px;
+	margin-right: 20px;
+  }
+
+  .card a:hover {
+	color: #00BFFF;
+  }
+
+  .card button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin-top: 20px;
+  }
+
+  .card button:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+  }
+
+  .container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-left: 20%;
+  }
+
+  .profile {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  }
+
+  .image {
+	position: relative;
+  }
+
+  #profile-picture {
+	width: 200px;
+	height: 200px;
+	border-radius: 30%;
+	object-fit: cover;
+	
+  }
+
+  #change-picture {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+	
+  }
+
+  .image:hover #change-picture {
+	opacity: 0.8;
+  }
+
+  #picture-input {
+	display: none;
+	
+  }
+
+  .details {
+	margin-left: 50px;
+  }
+
+  h2 {
+	font-size: 36px;
+	margin-bottom: 10px;
+  }
+
+  p {
+	font-size: px;
+	margin-bottom: 5px;
+  }
+  #profile-pic-input{
+	padding-left: 30%;
+	padding-top: 10px;
+  }
